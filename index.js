@@ -13,5 +13,4 @@ $(document).ready(function() {
         $(newTask).appendTo('ul')
         $('#input-task').val(' ')
     })
-    
 })
