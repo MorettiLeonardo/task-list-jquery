@@ -1,7 +1,7 @@
 $(document).ready(function() {
     
     $(document).on("click", ".task", function() {
-        $(".task").css("text-decoration", "line-through");
+        $(this).css("text-decoration", "line-through");
     });
 
     $('form').on('submit', function(ev) {
